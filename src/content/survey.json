@@ -400,7 +400,7 @@
             {
                 "value": 0,
                 "text": {
-                    "default": "Data is as an vague term which causes insecurities.\nNo employees with significant data backgrounds work here.",
+                    "default": "Data is a vague term which causes insecurities.\nNo employees with significant data backgrounds work here.",
                     "fr": "Le terme « données » est vague et suscite de l’insécurité. Aucun employé possédant une expérience importante dans le domaine des données ne travaille ici."
                 }
             },
