@@ -1,390 +1,66 @@
 {
     "pages": [
-     {
-      "name": "about_you_page",
-      "elements": [
-       {
-        "type": "dropdown",
-        "name": "basic_department",
-        "title": {
-            "default": "Which department do you work for?",
-            "fr": "Pour quel ministère travaillez-vous?"
-        },
-        "hideNumber": true,
-        "isRequired": true,
-        "choices": [
-         "Administration canadienne de la sûreté du transport aérien (CATSA-ACSTA)",
-         "Administration de pilotage de l'Atlantique Canada (APA-APA)",
-         "Administration de pilotage des Grands Lacs Canada (GLPA-APGL)",
-         "Administration de pilotage des Laurentides Canada (LPA-APL)",
-         "Administration de pilotage du Pacifique Canada (PPA-APP)",
-         "Administration du pipe-line du Nord Canada (NPA-APN)",
-         "Administration portuaire de Halifax (HPA-APH)",
-         "Administrative Tribunals Support Service of Canada (ATSSC-SCDATA)",
-         "Affaires autochtones et du Nord Canada (INAC-AANC)",
-         "Affaires intergouvernementales du Nord et commerce intérieur (IANAIT-AINCI)",
-         "Affaires mondiales Canada (GAC-AMC)",
-         "Agence canadienne de développement économique du Nord (CanNor-CanNor)",
-         "Agence canadienne d'évaluation environnementale (CEAA-ACEE)",
-         "Agence canadienne d'inspection des aliments (CFIA-ACIA)",
-         "Agence de la consommation en matière financière du Canada (FCAC-ACFC)",
-         "Agence de la santé publique du Canada (PHAC-ASPC)",
-         "Agence de promotion économique du Canada atlantique (ACOA-APECA)",
-         "Agence des services frontaliers du Canada (CBSA-ASFC)",
-         "Agence du revenu du Canada (CRA-ARC)",
-         "Agence fédérale de développement économique pour le Sud de l'Ontario (FedDev Ontario-FedDev Ontario)",
-         "Agence spatiale canadienne (CSA-ASC)",
-         "Agriculture and Agri-Food Canada (AAFC-AAC)",
-         "Agriculture et Agroalimentaire Canada (AAFC-AAC)",
-         "Anciens Combattants Canada (VAC-ACC)",
-         "Association of Professional Executives of the Public Service of Canada (APEX-APEX)",
-         "Association professionnelle des cadres supérieurs de la Fonction publique du Canada (APEX-APEX)",
-         "Atlantic Canada Opportunities Agency (ACOA-APECA)",
-         "Atlantic Pilotage Authority (APA-APA)",
-         "Atomic Energy of Canada Limited (AECL-EACL)",
-         "Auditor General of Canada, Office of the (OAG-BVG)",
-         "Bank of Canada (BOC-BDC)",
-         "Banque du Canada (BOC-BDC)",
-         "Bibliothèque du Parlement (LOP-BDP)",
-         "Bibliothèque et Archives Canada (LAC-BAC)",
-         "Bureau de la sécurité des transports du Canada (TSB-BST)",
-         "Bureau de l'ombudsman de l'approvisionnement (OPO-BOA)",
-         "Bureau de l'ombudsman des contribuables (OTO-BOC)",
-         "Bureau du commissaire du Centre de la sécurité des télécommunications (OCSEC-BCCST)",
-         "Bureau du Conseil privé (PCO-BCP)",
-         "Bureau du conseiller sénatorial en éthique (SEO-CSE)",
-         "Bureau du directeur général des élections (CEO-DGE)",
-         "Bureau du secrétaire du gouverneur général (OSGG-BSGG)",
-         "Bureau du surintendant des institutions financières Canada (OSFI-BSIF)",
-         "Bureau du vérificateur général du Canada (OAG-BVG)",
-         "Caisse d'indemnisation des dommages dus à la pollution par hydrocarbures causée par les navires (SOPF-CIDP)",
-         "Canada Border Services Agency (CBSA-ASFC)",
-         "Canada Council for the Arts (CC-CAC)",
-         "Canada Deposit Insurance Corporation (CDIC-SADC)",
-         "Canada Economic Development for Quebec Regions (CED-DEC)",
-         "Canada Industrial Relations Board (CIRB-CCRI)",
-         "Canada Mortgage and Housing Corporation (CMHC-SCHL)",
-         "Canada Revenue Agency (CRA-ARC)",
-         "Canada School of Public Service (CSPS-EFPC)",
-         "Canadian Air Transport Security Authority (CATSA-ACSTA)",
-         "Canadian Centre for Occupational Health and Safety (CCOHS-CCHST)",
-         "Canadian Centre on Substance Abuse (CCSA-CCLT)",
-         "Canadian Commercial Corporation (CCC-CCC)",
-         "Canadian Cultural Property Export Review Board (CCPERB-CCEEBC)",
-         "Canadian Dairy Commission (CDC-CCL)",
-         "Canadian Environmental Assessment Agency (CEAA-ACEE)",
-         "Canadian Food Inspection Agency (CFIA-ACIA)",
-         "Canadian Grain Commission (CGC-CCG)",
-         "Canadian Heritage (PCH-PCH)",
-         "Canadian Human Rights Commission (CHRC-CCDP)",
-         "Canadian Human Rights Tribunal (HRTC-TDPC)",
-         "Canadian Institutes of Health Research (CIHR-IRSC)",
-         "Canadian Intergovernmental Conference Secretariat (CICS-SCIC)",
-         "Canadian International Trade Tribunal (CITT-TCCE)",
-         "Canadian Judicial Council (CJC-CCM)",
-         "Canadian Museum for Human Rights (CMHR-MCDP)",
-         "Canadian Museum of History (CMH-MCH)",
-         "Canadian Museum of Immigration at Pier 21 (CMIP-MCIQ)",
-         "Canadian Museum of Nature (CMN-MCN)",
-         "Canadian Northern Economic Development Agency (CanNor-CanNor)",
-         "Canadian Nuclear Safety Commission (CNSC-CCSN)",
-         "Canadian Radio-television and Telecommunications Commission (CRTC-CRTC)",
-         "Canadian Security Intelligence Service (CSIS-SCRS)",
-         "Canadian Space Agency (CSA-ASC)",
-         "Canadian Transportation Agency (CTA-OTC)",
-         "CBC/Radio-Canada (CBC-Radio-Canada)",
-         "Centre canadien de lutte contre les toxicomanies (CCSA-CCLT)",
-         "Centre canadien d'hygiène et de sécurité au travail (CCOHS-CCHST)",
-         "Centre d'analyse des opérations et déclarations financières du Canada (FINTRAC-CANAFE)",
-         "Centre de la sécurité des télécommunications Canada (CSEC-CSTC)",
-         "Centre de recherches pour le développement international (IDRC-CRDI)",
-         "Centre national des arts (NAC-CNA)",
-         "Chambre des communes (HoC-CdC)",
-         "Civilian Review and Complaints Commission for the RCMP (CRCC-CCETP)",
-         "Comité de surveillance des activités de renseignement de sécurité (SIRC-CSARS)",
-         "Comité externe d'examen de la Gendarmerie royale du Canada (ERC-CEE)",
-         "Comité externe d'examen des griefs militaires (MGERC-CEEGM)",
-         "Commissariat à la magistrature fédérale Canada (FJA-CMF)",
-         "Commissariat à la protection de la vie privée du Canada (OPC-CPVP)",
-         "Commissariat à l'information au Canada (OIC-CI)",
-         "Commissariat à l'intégrité du secteur public du Canada (PSIC-ISPC)",
-         "Commissariat au lobbying du Canada (OCL-CAL)",
-         "Commissariat aux conflits d'intérêts et à l'éthique (CIEC-CCIE)",
-         "Commissariat aux langues officielles (OCOL-CLO)",
-         "Commission canadienne de sûreté nucléaire (CNSC-CCSN)",
-         "Commission canadienne des droits de la personne (CHRC-CCDP)",
-         "Commission canadienne des grains (CGC-CCG)",
-         "Commission canadienne d'examen des exportations de biens culturels (CCPERB-CCEEBC)",
-         "Commission canadienne du lait (CDC-CCL)",
-         "Commission civile d'examen et de traitement des plaintes relatives à la GRC (CRCC-CCETP)",
-         "Commission de la capitale nationale (NCC-CCN)",
-         "Commission de la fonction publique du Canada (PSC-CFP)",
-         "Commission de l'immigration et du statut de réfugié du Canada (IRB-CISR)",
-         "Commission des champs de bataille nationaux (NBC-CCBN)",
-         "Commission des libérations conditionnelles du Canada (PBC-CLCC)",
-         "Commission des relations de travail et de l'emploi dans la fonction publique (PSLREB-CRTEFP)",
-         "Commission d'examen des plaintes concernant la police militaire du Canada (MPCC-CPPM)",
-         "Commission du droit d'auteur Canada (CB-CDA)",
-         "Commission mixte internationale (IJC-CMI)",
-         "Communications Security Establishment Canada (CSEC-CSTC)",
-         "Competition Tribunal (CT-TC)",
-         "Conseil canadien de la magistrature (CJC-CCM)",
-         "Conseil canadien des normes (SCC-CCN-SCC-CCN)",
-         "Conseil canadien des relations industrielles (CIRB-CCRI)",
-         "Conseil de la radiodiffusion et des télécommunications canadiennes (CRTC-CRTC)",
-         "Conseil de recherches en sciences et en génie Canada (NSERC-CRSNG)",
-         "Conseil de recherches en sciences humaines du Canada (SSHRC-CRSH)",
-         "Conseil des arts du Canada (CC-CAC)",
-         "Conseil des produits agricoles du Canada (FPCC-CPAC)",
-         "Conseil d'examen du prix des médicaments brevetés Canada (PMPRB-CEPMB)",
-         "Conseil fédéral du Québec (QFC-CFQ)",
-         "Conseil national de recherches Canada (NRC-CNRC)",
-         "Construction de Défense Canada (DCC-CDC)",
-         "Copyright Board Canada (CB-CDA)",
-         "Corporation commerciale canadienne (CCC-CCC)",
-         "Correctional Service Canada (CSC-SCC)",
-         "Cour canadienne de l'impôt (TCC-CCI)",
-         "Cour d'appel de la cour martiale du Canada (CMAC-CACM)",
-         "Cour d'appel fédérale (FCA-CAF)",
-         "Cour fédérale (FC-CF)",
-         "Cour suprême du Canada (SCC-CSC)",
-         "Court Martial Appeal Court of Canada (CMAC-CACM)",
-         "Courts Administration Service (CAS-SATJ)",
-         "Defence Construction Canada (DCC-CDC)",
-         "Defence Research and Development Canada (DRDC) (DRDC-RDDC)",
-         "Défense nationale (DND-MDN)",
-         "Democratic Institutions (DI-ID)",
-         "Destination Canada (DC-DC)",
-         "Destination Canada (DC-DC)",
-         "Développement économique Canada pour les régions du Québec (CED-DEC)",
-         "Développement économique rural (RED-DER)",
-         "Directeur parlementaire du budget (PBO-DPB)",
-         "Diversification de l'économie de l'Ouest Canada (WD-DEO)",
-         "École de la fonction publique du Canada (CSPS-EFPC)",
-         "Emploi et Développement social Canada (ESDC-EDSC)",
-         "Employment and Social Development Canada (ESDC-EDSC)",
-         "Énergie atomique du Canada, Limitée (AECL-EACL)",
-         "Enquêteur correctionnel Canada (OCI-BEC)",
-         "Environment and Climate Change Canada (ECCC-ECCC)",
-         "Environnement et Changement climatique Canada (ECCC-ECCC)",
-         "Farm Credit Canada (FCC-FAC)",
-         "Farm Products Council of Canada (FPCC-CPAC)",
-         "Federal Court (FC-CF)",
-         "Federal Court of Appeal (FCA-CAF)",
-         "Federal Economic Development Agency for Southern Ontario (FedDev Ontario-FedDev Ontario)",
-         "Federal Public Sector Labour Relations and Employment Board (PSLREB-CRTEFP)",
-         "Femmes et Égalité des genres Canada (WAGE-FEGC)",
-         "Finance Canada (FIN-FIN)",
-         "Financement agricole Canada (FCC-FAC)",
-         "Finances Canada, Ministère des (FIN-FIN)",
-         "Financial Consumer Agency of Canada (FCAC-ACFC)",
-         "Financial Transactions and Reports Analysis Centre of Canada (FINTRAC-CANAFE)",
-         "Fisheries and Oceans Canada (DFO-MPO)",
-         "Gendarmerie royale du Canada (RCMP-GRC)",
-         "Global Affairs Canada (GAC-AMC)",
-         "Gouverneur général du Canada (OSGG-BSGG)",
-         "Governor General (OSGG-BSGG)",
-         "Great Lakes Pilotage Authority Canada (GLPA-APGL)",
-         "Greffe du Tribunal des revendications particulières du Canada (SCT-TRP)",
-         "Halifax Port Authority (HPA-APH)",
-         "Health Canada (HC-SC)",
-         "Horizons de politiques Canada (Horizons-Horizons)",
-         "House of Commons (HoC-CdC)",
-         "Immigration and Refugee Board of Canada (IRB-CISR)",
-         "Immigration, Refugees and Citizenship Canada (IRCC-IRCC)",
-         "Immigration, Réfugiés et Citoyenneté Canada (IRCC-IRCC)",
-         "Indian Residential Schools Adjudication Secretariat (IRSAS-SAPI)",
-         "Indigenous and Northern Affairs Canada (INAC-AANC)",
-         "Indigenous Services Canada (ISC-SAC)",
-         "Infrastructure Canada (INFC-INFC)",
-         "Infrastructure Canada (INFC-INFC)",
-         "Ingenium (CSTMC-SMSTC)",
-         "Ingenium (CSTMC-SMSTC)",
-         "Innovation, Science and Economic Development Canada (ISED-ISDE)",
-         "Innovation, Sciences et Développement économique Canada (ISED-ISDE)",
-         "Institutions démocratiques (DI-ID)",
-         "Instituts de recherche en santé du Canada (CIHR-IRSC)",
-         "Intergovernmental and Northern Affairs and Internal Trade (IANAIT-AINCI)",
-         "International Development Research Centre (IDRC-CRDI)",
-         "International Joint Commission (IJC-CMI)",
-         "Justice Canada (JUS-JUS)",
-         "Justice Canada, Ministère de la (JUS-JUS)",
-         "Laurentian Pilotage Authority Canada (LPA-APL)",
-         "Leader du gouvernement à la Chambre des communes (LGHC-LGCC)",
-         "Library and Archives Canada (LAC-BAC)",
-         "Library of Parliament (LOP-BDP)",
-         "Military Grievances External Review Committee (MGERC-CEEGM)",
-         "Military Police Complaints Commission of Canada (MPCC-CPPM)",
-         "Monnaie royale canadienne (Mint-Monnaie)",
-         "Musée canadien de la nature (CMN-MCN)",
-         "Musée canadien de l'histoire (CMH-MCH)",
-         "Musée canadien de l'immigration du Quai 21 (CMIP-MCIQ)",
-         "Musée canadien pour les droits de la personne (CMHR-MCDP)",
-         "Musée des beaux-arts du Canada (NGC-MBAC)",
-         "National Arts Centre (NAC-CNA)",
-         "National Capital Commission (NCC-CCN)",
-         "National Defence (DND-MDN)",
-         "National Energy Board (NEB-ONE)",
-         "National Film Board of Canada (NFB-ONF)",
-         "National Gallery of Canada (NGC-MBAC)",
-         "National Research Council Canada (NRC-CNRC)",
-         "Natural Resources Canada (NRCan-RNCan)",
-         "Natural Sciences and Engineering Research Council of Canada (NSERC-CRSNG)",
-         "Northern Pipeline Agency (NPA-APN)",
-         "Office des transports du Canada (CTA-OTC)",
-         "Office national de l'énergie (NEB-ONE)",
-         "Office national du film (NFB-ONF)",
-         "Office of the Chief Electoral Officer (CEO-DGE)",
-         "Office of the Commissioner for Federal Judicial Affairs Canada (FJA-CMF)",
-         "Office of the Commissioner of Lobbying of Canada (OCL-CAL)",
-         "Office of the Commissioner of Official Languages (OCOL-CLO)",
-         "Office of the Communications Security Establishment Commissioner (OCSEC-BCCST)",
-         "Office of the Conflict of Interest and Ethics Commissioner (CIEC-CCIE)",
-         "Office of the Correctional Investigator Canada (OCI-BEC)",
-         "Office of the Information Commissioner of Canada (OIC-CI)",
-         "Office of the Leader of the Government in the House of Commons (LGHC-LGCC)",
-         "Office of the Privacy Commissioner of Canada (OPC-CPVP)",
-         "Office of the Procurement Ombudsman (OPO-BOA)",
-         "Office of the Public Sector Integrity Commissioner of Canada (PSIC-ISPC)",
-         "Office of the Secretary to the Governor General (OSGG-BSGG)",
-         "Office of the Senate Ethics Officer (SEO-CSE)",
-         "Office of the Superintendent of Financial Institutions Canada (OSFI-BSIF)",
-         "Office of the Taxpayers' Ombudsman (OTO-BOC)",
-         "Pacific Pilotage Authority Canada (PPA-APP)",
-         "Parcs Canada (PC-PC)",
-         "Parks Canada (PC-PC)",
-         "Parlement du Canada (PARL-PARL)",
-         "Parliament of Canada (PARL-PARL)",
-         "Parliamentary Budget Officer (PBO-DPB)",
-         "Parole Board of Canada (PBC-CLCC)",
-         "Patented Medicine Prices Review Board (PMPRB-CEPMB)",
-         "Patrimoine canadien (PCH-PCH)",
-         "Pêches et Océans Canada (DFO-MPO)",
-         "Polar Knowledge Canada (POLAR-POLAIRE)",
-         "Policy Horizons Canada (Horizons-Horizons)",
-         "Ponts Jacques-Cartier et Champlain (JCCBI-PJCCI)",
-         "PPP Canada (P3C-P3C)",
-         "PPP Canada (P3C-P3C)",
-         "Premier ministre du Canada (PMO-CPM)",
-         "Prime Minister's Office (PMO-CPM)",
-         "Privy Council Office (PCO-BCP)",
-         "Public Health Agency of Canada (PHAC-ASPC)",
-         "Public Prosecution Service of Canada (PPSC-SPPC)",
-         "Public Safety Canada (PS-SP)",
-         "Public Servants Disclosure Protection Tribunal Canada (PSDPTC-TPFDC)",
-         "Public Service Commission (PSC-CFP)",
-         "Public Services and Procurement Canada (PSPC-SPAC)",
-         "Quebec Federal Council (QFC-CFQ)",
-         "Radio Canada (CBC-Radio-Canada)",
-         "Recherche et développement pour la Défense Canada (DRDC-RDDC)",
-         "Ressources naturelles Canada (NRCan-RNCan)",
-         "Royal Canadian Mint (Mint-Monnaie)",
-         "Royal Canadian Mounted Police (RCMP-GRC)",
-         "Royal Canadian Mounted Police External Review Committee (ERC-CEE)",
-         "Royal Society of Canada, The (RSC-SRC)",
-         "Rural Economic Development (RED-DER)",
-         "Santé Canada (HC-SC)",
-         "Savoir polaire Canada (POLAR-POLAIRE)",
-         "Secrétariat d'adjudication des pensionnats indiens (IRSAS-SAPI)",
-         "Secrétariat des conférences intergouvernementales canadiennes (CICS-SCIC)",
-         "Secrétariat du Conseil du Trésor du Canada (TBS-SCT)",
-         "Sécurité publique Canada (PS-SP)",
-         "Security Intelligence Review Committee (SIRC-CSARS)",
-         "Sénat du Canada (Sen-Sen)",
-         "Senate of Canada (Sen-Sen)",
-         "Service administratif des tribunaux judiciaires (CAS-SATJ)",
-         "Service canadien d'appui aux tribunaux administratifs (ATSSC-SCDATA)",
-         "Service canadien du renseignement de sécurité (CSIS-SCRS)",
-         "Service correctionnel Canada (CSC-SCC)",
-         "Service des poursuites pénales du Canada (PPSC-SPPC)",
-         "Services aux Autochtones Canada (ISC-SAC)",
-         "Services partagés Canada (SSC-SPC)",
-         "Services publics et Approvisionnement Canada (PSPC-SPAC)",
-         "Shared Services Canada (SSC-SPC)",
-         "Ship-source Oil Pollution Fund (SOPF-CIDP)",
-         "Social Sciences and Humanities Research Council of Canada (SSHRC-CRSH)",
-         "Social Security Tribunal of Canada (SST-TSS)",
-         "Société canadienne d'hypothèques et de logement (CMHC-SCHL)",
-         "Société d'assurance-dépôts du Canada (CDIC-SADC)",
-         "Société des ponts fédéraux (FBCL-SPFL)",
-         "Société royale du Canada, La (RSC-SRC)",
-         "Specific Claims Tribunal (SCT-TRP)",
-         "St Lawrence Seaway Management Corporation, The (SLS-VMSL)",
-         "Standards Council of Canada (SCC-CCN-SCC-CCN)",
-         "Statistics Canada (StatCan-StatCan)",
-         "Statistique Canada (StatCan-StatCan)",
-         "Supreme Court of Canada (SCC-CSC)",
-         "Tax Court of Canada (TCC-CCI)",
-         "Telefilm Canada (TFC-TFC)",
-         "Téléfilm Canada (TFC-TFC)",
-         "The Federal Bridge Corporation Limited (FBCL-SPFL)",
-         "The Jacques Cartier and Champlain Bridges Incorporated (JCCBI-PJCCI)",
-         "The National Battlefields Commission (NBC-CCBN)",
-         "Transport Canada (TC-TC)",
-         "Transportation Appeal Tribunal of Canada (TATC-TATC)",
-         "Transportation Safety Board of Canada (TSB-BST)",
-         "Transports Canada (TC-TC)",
-         "Treasury Board of Canada Secretariat (TBS-SCT)",
-         "Tribunal canadien du commerce extérieur (CITT-TCCE)",
-         "Tribunal d'appel des transports du Canada (TATC-TATC)",
-         "Tribunal de la concurrence (CT-TC)",
-         "Tribunal de la protection des fonctionnaires divulgateurs Canada (PSDPTC-TPFDC)",
-         "Tribunal de la sécurité sociale du Canada (SST-TSS)",
-         "Tribunal des anciens combattants (révision et appel) (VRAB-TACRA)",
-         "Tribunal des droits de la personne du Canada (HRTC-TDPC)",
-         "Veterans Affairs Canada (VAC-ACC)",
-         "Veterans Review and Appeal Board (VRAB-TACRA)",
-         "Voie maritime du Saint-Laurent, Corporation de gestion de la (SLS-VMSL)",
-         "Western Economic Diversification Canada (WD-DEO)",
-         "Women and Gender Equality Canada (WAGE-FEGC)"
-        ]
-       },
-       {
-        "type": "dropdown",
-        "name": "basic_classification",
-        "title": {
-            "default": "How long have you worked for the Government of Canada?",
-            "fr": "Depuis combien de temps travaillez-vous pour le gouvernement du Canada"
-        },
-        "hideNumber": true,
-        "isRequired": true,
-        "choices": [
-            {
-                "value": "< 5 years",
-                "text": {
-                    "default": "< 5 years",
-                    "fr": "< 5 années"
+        {
+            "name": "about_you_page",
+            "elements": [
+             {
+              "type": "radiogroup",
+              "name": "aboutYou",
+              "title": {
+                  "default": "Which statement best describes your relation to data?",
+                  "fr": "Quel énoncé décrit le mieux la culture de votre organisation quant au travail avec les données?"
+              },
+              "isRequired": true,
+              "choices": [
+                  {
+                      "value": 0,
+                      "text": {
+                          "default": "I consult and create data through delivering programs and services to citizens, businesses, not-for-profit organizations, academia or other levels of government.",
+                          "fr": "Le terme « données » est vague et suscite de l’insécurité. Aucun employé possédant une expérience importante dans le domaine des données ne travaille ici."
+                      }
+                  },
+                  {   "value": 1,
+                      "text": {
+                          "default": "I identify and interpret trends and patterns in datasets, and communicate conclusions and recommendations to decision makers and stakeholders.",
+                          "fr": "Les données sont un concept intéressant qui présente de grands avantages. On ne sait pas exactement quand utiliser les données et à quoi s’attendre. Les employés ayant des connaissances en analyse de données occupent des postes spécialisés."
+                      }
+                  },
+                  {
+                      "value": 4,
+                      "text": {
+                          "default": "I use advanced statistical, algorithmic, mining and visualization techniques for developing data solutions to business problems.",
+                          "fr": "Les données sont considérées comme un outil pour progresser et appuyer les activités existantes et planifiées. Les cadres supérieurs et les employés spécialisés sont parfaitement conscients de la nécessité de collecter, de stocker et de gérer les données. L’analyse de données est considérée comme une compétence recherchée."
+                      }
+                  },
+                  {
+                      "value": 2,
+                      "text": {
+                          "default": "I make operational and strategic planning decisions based on analytical insights derived from data.",
+                          "fr": "Les barrières psychologiques à l’accès aux données ont été éliminées et le confort vis-à-vis des données est favorisé. Les renseignements utiles issus de l’analyse des données sont utilisés et optimisés à tous les niveaux du flux de travail. La littératie des données est une compétence importante pour la plupart des employés, même au niveau des cadres supérieurs. Certaines ressources (temps, budget, ressources humaines) sont consacrées au traitement et à la conversion des données."
+                      }
+                  },
+                  {
+                    "value": 3,
+                    "text": {
+                        "default": "I oversee the management of government data throughout its entire lifecycle.",
+                        "fr": "Les barrières psychologiques à l’accès aux données ont été éliminées et le confort vis-à-vis des données est favorisé. Les renseignements utiles issus de l’analyse des données sont utilisés et optimisés à tous les niveaux du flux de travail. La littératie des données est une compétence importante pour la plupart des employés, même au niveau des cadres supérieurs. Certaines ressources (temps, budget, ressources humaines) sont consacrées au traitement et à la conversion des données."
+                    }
+                },
+                  {
+                    "value": 5,
+                    "text": {
+                        "default": "I design, implement and maintain the architecture needed to collect and analyze large datasets.",
+                        "fr": "Les barrières psychologiques à l’accès aux données ont été éliminées et le confort vis-à-vis des données est favorisé. Les renseignements utiles issus de l’analyse des données sont utilisés et optimisés à tous les niveaux du flux de travail. La littératie des données est une compétence importante pour la plupart des employés, même au niveau des cadres supérieurs. Certaines ressources (temps, budget, ressources humaines) sont consacrées au traitement et à la conversion des données."
+                    }
                 }
-            },
-            {
-                "value": "5-10 years",
-                "text": {
-                    "default": "5-10 years",
-                    "fr": "5-10"
-                }
-            },
-            {
-                "value": "10-20 years",
-                "text": {
-                    "default": "10-20 years",
-                    "fr": "10-20"
-                }
-            },
-            {
-                "value": "> 20 years",
-                "text": {
-                    "default": "> 20 years",
-                    "fr": "> 20 années"
-                }
-            }
-        ]
-       }
-      ],
-      "title": {
-          "default": "About you",
-          "fr": "À propos de vous"
-        }
-     },
+              ]
+             }
+            ],
+            "title": {
+                "default": "About You",
+                "fr": "Culture de données"
+              }
+           },
      {
       "name": "data_culture_page",
       "elements": [
@@ -392,7 +68,7 @@
         "type": "radiogroup",
         "name": "dataCulture",
         "title": {
-            "default": "Which statement best describes the culture in your organization when working with data?",
+            "default": "How would you describe your understanding of how data flows through your organization?",
             "fr": "Quel énoncé décrit le mieux la culture de votre organisation quant au travail avec les données?"
         },
         "isRequired": true,
@@ -400,27 +76,27 @@
             {
                 "value": 0,
                 "text": {
-                    "default": "Data is a vague term which causes insecurities.\nNo employees with significant data backgrounds work here.",
+                    "default": "I am aware that my organization has data, but I am unsure how it is collected, managed and used to benefit British Columbians.",
                     "fr": "Le terme « données » est vague et suscite de l’insécurité. Aucun employé possédant une expérience importante dans le domaine des données ne travaille ici."
                 }
             },
             {   "value": 1,
                 "text": {
-                    "default": "Data is an interesting concept that brings great benefits. There are uncertainties about when to use data and what to expect. Employees with some data analytics knowledge work in specialist positions.",
+                    "default": "I have a general understanding of the workflow to acquire, process and analyze data to solve business problems.",
                     "fr": "Les données sont un concept intéressant qui présente de grands avantages. On ne sait pas exactement quand utiliser les données et à quoi s’attendre. Les employés ayant des connaissances en analyse de données occupent des postes spécialisés."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "Data is understood to be an enabler for progress and a support for existing and planned activities. Higher management and specialized positions are fully aware of the need to collect, store and act on data. Data analysis is recognized as a needed skill.",
+                    "default": "I have a detailed understanding of all stages of the data lifecycle, from creation and initial storage to the time it is archived or become obsolete and is deleted.",
                     "fr": "Les données sont considérées comme un outil pour progresser et appuyer les activités existantes et planifiées. Les cadres supérieurs et les employés spécialisés sont parfaitement conscients de la nécessité de collecter, de stocker et de gérer les données. L’analyse de données est considérée comme une compétence recherchée."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "Psychological barriers to access data have been removed and comfort around data is promoted. Insights from data analysis are used and optimized at all levels of the workflow. Data literacy is an important skill for most employees, even at a senior level. There are resources (time, budget, human resources) dedicated for data handling and conversion.",
+                    "default": "I develop data lifecycle management policies and processes to promote the preservation, protection, access, re-use and shareability of government data assets.",
                     "fr": "Les barrières psychologiques à l’accès aux données ont été éliminées et le confort vis-à-vis des données est favorisé. Les renseignements utiles issus de l’analyse des données sont utilisés et optimisés à tous les niveaux du flux de travail. La littératie des données est une compétence importante pour la plupart des employés, même au niveau des cadres supérieurs. Certaines ressources (temps, budget, ressources humaines) sont consacrées au traitement et à la conversion des données."
                 }
             }
@@ -439,7 +115,7 @@
         "type": "radiogroup",
         "name": "dataEthicsAndSecurity",
         "title": {
-            "default": "Which statement best describes your organization's take on data ethics and security?",
+            "default": "Which statement best describes your familiarity with data ethics and security?",
             "fr": "Quel énoncé décrit le mieux le point de vue de votre organisation en matière d’éthique et de sécurité des données?"
         },
         "isRequired": true,
@@ -447,28 +123,28 @@
             {
                 "value": 0,
                 "text": {
-                    "default": "I am not sure how data is handled in my organization. No guidelines are defined that ensure confidentiality, integrity and availability of data.",
+                    "default": "I am not aware of any specific guidelines that ensure a responsible use and sharing of data.",
                     "fr": "Je ne suis pas sûr de la manière dont les données sont traitées dans mon organisation. Il n’existe aucune ligne directrice sur la confidentialité, l’intégrité et la disponibilité des données."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "Some employees and projects are aware of potential security issues and uncoordinated attempts are made to handle data securely.  There is rising awareness of the importance of responsible use of data, but no defined guidelines",
+                    "default": "I once completed a Privacy Impact Assessment (PIA) to make sure the information I collect or use in my project is protected.",
                     "fr": "Certains employés et responsables de projet sont conscients des problèmes de sécurité potentiels, et des efforts non coordonnés sont déployés pour traiter les données en toute sécurité. L’importance d’une utilisation responsable des données est de plus en plus reconnue, mais aucune ligne directrice n’est mise en place."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "Data protection guidelines are defined and employees know how to share data responsibly. Organization-wide policies for secure and ethically sound data handling exist.",
+                    "default": "I identify risks whenever I collect or use data, and robust privacy controls are established to ensure the confidentiality, integrity and security of data throughout its lifecycle.",
                     "fr": "Des lignes directrices sur la protection des données sont en place et les employés savent comment communiquer les données de façon responsable. Il existe des politiques à l’échelle de l’organisation pour un traitement des données sûr et éthique."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "Consistent, organization-wide policies for secure and ethically sound data handling are constantly redefined and updated. Senior employees are responsible for the enforcement of these rules. Processes are in place to ensure the confidentiality, integrity, and availability of data.",
+                    "default": "I have experience in developing and overseeing compliance with privacy protection policies and procedures.",
                     "fr": "À l’échelle de l’organisation, des politiques cohérentes sur le traitement des données sûr et éthique sont constamment redéfinies et mises à jour. Les cadres supérieurs sont responsables de les faire respecter. Des processus sont en place pour garantir la confidentialité, l’intégrité et la disponibilité des données."
                 }
             }
@@ -495,7 +171,7 @@
             {
                 "value": 0,
                 "text": {
-                    "default": "I have no idea what questions can be answered by data.",
+                    "default": "I have no idea what kind of problems can be solved with the use of data.",
                     "fr": "Je n’ai aucune idée des questions auxquelles les données peuvent répondre."
                 }
             },
@@ -516,7 +192,7 @@
             {
                 "value": 3,
                 "text": {
-                    "default": "My projects are based on multidimensional questions that need complex data queries and answer all main questions and sub-questions. No single person can handle these inquiries.",
+                    "default": "I regularly translate business needs into analytic or reporting requirements to support program, project or policy goals, including monitoring progress and evaluating performance.",
                     "fr": "Mes projets sont fondés sur des questions multidimensionnelles qui exigent des requêtes de données complexes et répondent à toutes les questions principales et sous-questions. Aucune personne à elle seule ne peut gérer ces demandes."
                 }
             }
@@ -524,7 +200,7 @@
        }
       ],
       "title": {
-          "default": "Ask Questions to Collect Data",
+          "default": "Asking the Right Questions",
           "fr": "Questions posées pour recueillir des données"
         }
      },
@@ -543,28 +219,28 @@
             {
                 "value": 0,
                 "text": {
-                    "default": "I use basic search engines to try to find data.",
+                    "default": "I use basic search engines like Google to try to find data.",
                     "fr": "J’utilise des moteurs de recherche de base pour trouver des données."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I know where to find a few data sources and perform advanced use of search engines to locate them.",
+                    "default": "I know a few data portals and public databases, and can choose the most relevant ones to help me with my work.",
                     "fr": "Je sais où trouver quelques sources de données et j’utilise des moteurs de recherche de façon avancée pour les trouver."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I have a broad understanding of different data sources and can choose the most relevant ones to help me with my work. I am aware of and use open data portals for specific topics.",
+                    "default": "I use advanced methods and software to collect and combine data from multiple sources to solve business problems.",
                     "fr": "Je comprends bien les différentes sources de données et je peux choisir celles qui sont les plus utiles à mon travail. Je connais et utilise des portails de données ouvertes pour certains sujets."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I have a solid understanding of the various possible types of data sources. I create assessment criteria for selecting the ones most relevant to my business needs. I can detect when a given problem or need cannot be solved with the existing data, and know how to deploy research techniques to obtain new data (e.g. complex queries).",
+                    "default": "I can detect when a given problem or need cannot be solved with the existing data, and know how to deploy research techniques to obtain new data.",
                     "fr": "Je comprends très bien les divers types de sources de données possibles. Je crée des critères d’évaluation pour sélectionner les plus utiles à mes besoins opérationnels. Je peux reconnaître qu’un problème ou besoin ne peut pas être géré avec les données existantes, et je sais comment déployer des techniques de recherche pour obtenir de nouvelles données (p. ex. requêtes complexes)."
                 }
             }
@@ -575,102 +251,6 @@
           "default": "Finding Data",
           "fr": "Recherche de données"
         }
-     },
-     {
-      "name": "get_page",
-      "elements": [
-       {
-        "type": "radiogroup",
-        "name": "get",
-        "title": {
-            "default":"Which strategies do you use in order to gather data?",
-            "fr":"Quelles stratégies utilisez-vous pour recueillir des données?"
-        },
-        "isRequired": true,
-        "choices": [
-            {
-                "value": 0,
-                "text": {
-                    "default": "I gather data through surveys and forms in full text and use it as base for further analysis.",
-                    "fr": "Je recueille des données au moyen de formulaires et de sondages en texte intégral et les utilise comme base pour des analyses plus poussées."
-                }
-            },
-            {
-                "value": 1,
-                "text": {
-                    "default": "I use often make use of internal programs to access data (e.g. Excel) and downloads of data formats such as .csv",
-                    "fr": "J’utilise souvent des programmes internes pour accéder à des données (p. ex. Excel) et des téléchargements en format de données comme .csv."
-                }
-            },
-            {
-                "value": 2,
-                "text": {
-                    "default": "I access data using complex data formats (e.g. JSON, XML). I can use APIs to get data.",
-                    "fr": "J’accède à des données en utilisant des formats de données complexes (p. ex. JSON, XML). Je peux utiliser des interfaces API pour obtenir des données."
-                }
-            },
-            {
-                "value": 3,
-                "text": {
-                    "default": "I access data through programming and other sophisticated methods (e.g. automated data scrapers / scripts). I can convert input format into a form that can be used for further processing and analysis.",
-                    "fr": "J’accède à des données à l’aide de programmes et d’autres méthodes perfectionnées (p. ex. grattages ou scripts automatisés des données). Je peux convertir un format d’entrée en formulaire qui peut être utilisé pour des analyses et des traitements plus poussés."
-                }
-            }
-        ]
-       }
-      ],
-      "title": {
-          "default": "Gathering Data",
-            "fr": "Collecte de données"
-        }
-     },
-     {
-      "name": "verify_page",
-      "elements": [
-       {
-        "type": "radiogroup",
-        "name": "verify",
-        "title": {
-            "default": "How do you assess the quality of your data sources?",
-            "fr": "Comment évaluez-vous la qualité de vos sources de données?"
-        },
-        "isRequired": true,
-        "choices": [
-            {
-                "value": 0,
-                "text": {
-                    "default": "I do not know how to evaluate the quality of data. I take data sources at face value.",
-                    "fr": "Je ne sais pas comment évaluer la qualité des données. Je ne mets pas en doute les sources de données."
-                }
-            },
-            {
-                "value": 1,
-                "text": {
-                    "default": "I can verify the accuracy and completeness of simple data sources",
-                    "fr": "Je peux vérifier l’exactitude et l’exhaustivité de sources de données simples."
-                }
-            },
-            {
-                "value": 2,
-                "text": {
-                    "default": "I can perform multiple layers of data verification and follow standard procedures that are implemented across the organization.",
-                    "fr": "Je peux vérifier plusieurs couches de données et suivre les procédures normalisées en place à l’échelle de l’organisation."
-                }
-            },
-            {
-                "value": 3,
-                "text": {
-                    "default": "I can do a data quality assessment independently where data evaluation criteria regarding authorship, method of obtaining and analyzing data, comparability and quality are precisely defined.",
-                    "fr": "Je peux faire une évaluation de la qualité des données de manière indépendante à l’aide de critères précis sur l’auteur, les méthodes de collectes et d’analyse, la comparabilité et la qualité."
-                }
-            }
-        ]
-       }
-      ],
-      "title": {
-          "default": "Verifying Data",
-          "fr": "Vérification des données"
-      }
      },
      {
       "name": "clean_page",
@@ -694,14 +274,14 @@
             {
                 "value": 1,
                 "text": {
-                    "default": "I know that data is not perfect. I am awareness of some data quality criteria (e.g. empty fields, duplicates) and can manually fix errors.",
+                    "default": "I know that data is not perfect. I am aware of common data quality issues (e.g. empty fields, duplicates) and can manually fix errors.",
                     "fr": "Je sais que les données ne sont pas parfaites. Je suis au courant de certains critères de qualité des données (p. ex. champs vides, doublons) et je peux corriger les erreurs manuellement."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I detect and remove invalid records using programs that support data cleaning (e.g. OpenRefine). I am very aware of data quality criteria (e.g. machine processable, empty fields, duplicate detection).",
+                    "default": " I am very aware of data quality criteria (e.g. machine processable, empty fields, duplicate detection). I detect and remove invalid records using programs that support data cleaning.",
                     "fr": "Je détecte et retire les enregistrements non valides au moyen de programmes qui aident au nettoyage des données (p. ex. OpenRefine). Je connais très bien les critères de qualité des données (p. ex. traitables par machine, champs vides, détection des doublons)."
                 }
             },
@@ -721,6 +301,54 @@
       }
      },
      {
+        "name": "manage_page",
+        "elements": [
+         {
+          "type": "radiogroup",
+          "name": "manage",
+          "title": {
+              "default":"Which strategies do you use in order to manage data?",
+              "fr":"Quelles stratégies utilisez-vous pour recueillir des données?"
+          },
+          "isRequired": true,
+          "choices": [
+              {
+                  "value": 0,
+                  "text": {
+                      "default": "I did not realize that data had to be managed to support the integrity, security and accessibility of the data.",
+                      "fr": "Je recueille des données au moyen de formulaires et de sondages en texte intégral et les utilise comme base pour des analyses plus poussées."
+                  }
+              },
+              {
+                  "value": 1,
+                  "text": {
+                      "default": "I can collect, edit and store simple datasets in a spreadsheet. I am aware of the importance of creating appropriate metadata descriptors (e.g. author, date created, access rights) to fully document the data set.",
+                      "fr": "J’utilise souvent des programmes internes pour accéder à des données (p. ex. Excel) et des téléchargements en format de données comme .csv."
+                  }
+              },
+              {
+                  "value": 2,
+                  "text": {
+                      "default": "I am able to design, implement and manage large databases, including big data environments and real-time dashboards. I follow data standards that are implemented across the organizations. ",
+                      "fr": "J’accède à des données en utilisant des formats de données complexes (p. ex. JSON, XML). Je peux utiliser des interfaces API pour obtenir des données."
+                  }
+              },
+              {
+                  "value": 3,
+                  "text": {
+                      "default": "I integrate collected data with existing information systems, setting up data pipelines and improving the interoperability of data. I support the creation and maintenance of data dictionaries to document corporate datasets.",
+                      "fr": "J’accède à des données à l’aide de programmes et d’autres méthodes perfectionnées (p. ex. grattages ou scripts automatisés des données). Je peux convertir un format d’entrée en formulaire qui peut être utilisé pour des analyses et des traitements plus poussés."
+                  }
+              }
+          ]
+         }
+        ],
+        "title": {
+            "default": "Managing Data",
+              "fr": "Collecte de données"
+          }
+       },
+     {
       "name": "analyze_page",
       "elements": [
        {
@@ -735,14 +363,14 @@
             {
                 "value": 0,
                 "text": {
-                    "default": "I create simple data tables and basic summaries of data. I often use bar and pie charts.",
+                    "default": "I simply use basic summaries of data to read information.",
                     "fr": "Je crée des tableaux de données simples et des sommaires de base des données. J’utilise souvent des graphiques à barres et à secteurs."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I work with basic descriptive statistics and leverage pivot tables for aggregating information. I often use histograms and boxplots.",
+                    "default": "I work with basic descriptive statistics to identify basic relationships, trends and patterns in data. I often use bar and pie charts.",
                     "fr": "Je travaille avec des statistiques descriptives de base et j’utilise des tableaux croisés dynamiques pour regrouper l’information. J’utilise souvent des histogrammes et des diagrammes à surfaces."
                 }
             },
@@ -756,7 +384,7 @@
             {
                 "value": 3,
                 "text": {
-                    "default": "I am able to use a full suite of machine learning tools (e.g. clustering, forecasting, boosting, ensemble learning) to analyze data.",
+                    "default": "I am able to use modern statistical software to perform various machine learning techniques, such as clustering, forecasting, and natural language processing.",
                     "fr": "Je suis capable d’utiliser une suite complète d’outils d’apprentissage automatique (p. ex. regroupement, prévision, dopage, apprentissage par ensemble) pour analyser les données."
                 }
             }
@@ -783,28 +411,28 @@
             {
                 "value": 0,
                 "text": {
-                    "default": "I don’t know how to present data. I choose standard visualizations based on what looks best (trial and error).",
+                    "default": "I don’t know how to present data. I choose standard visualizations based on what looks best.",
                     "fr": "Je ne sais pas comment présenter les données. Je choisis des visualisations courantes en fonction de ce qui me semble le mieux (essais et erreurs)."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I can visualize specific information that can easily be represented (e.g. 2 variable using Excel).",
+                    "default": "I visualize specific information that can easily be represented in a table or graph (e.g. 2 variable using Excel).",
                     "fr": "Je peux visualiser des informations spécifiques qui peuvent être facilement représentées (par exemple, 2 variables en utilisant Excel)."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I create interactive charts / dashboards using visual analytics tools (e.g. Tableau). I am able to visualize the uncertainties along with the data (range of values).",
+                    "default": "I design interactive charts or dashboards using advanced visual analytics tools. I can choose the visualization that best fits my target audience and data story.",
                     "fr": "Je crée des graphiques/tableaux de bord interactifs en utilisant des outils d'analyse visuelle (par exemple, Tableau)."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I can create sophisticated visualizations and dashboards that are linked to data and anticipate users needs.",
+                    "default": "I can create sophisticated visualizations that update automatically with real-time data and anticipate users needs.",
                     "fr": "Je suis capable de visualiser les incertitudes en même temps que les données (gamme de valeurs). -Je peux créer des visualisations et des tableaux de bord sophistiqués qui sont liés aux données et anticipent les besoins des utilisateurs."
                 }
             }
@@ -838,21 +466,21 @@
             {
                 "value": 1,
                 "text": {
-                    "default": "I have a limited ability to use data outputs. I use simple narratives to  support static visualizations / key numbers (e.g. operational reports).",
+                    "default": "I am able to develop reports and prepare static visual summaries illustrating and supporting data insights.",
                     "fr": "J’ai une capacité limitée à utiliser les sorties des données. J’utilise des textes simples qui étayent les visualisations statiques et les chiffres clés (p. ex. rapports opérationnels)."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "My work is supported by interactive visualizations and a sophisticated narrative to put my insights in a broader context. (e.g. data storytelling)",
+                    "default": "I use common presentation tools to present key takeaway points and make recommendations.",
                     "fr": "Mon travail s’appuie sur des visualisations interactives et des textes complexes pour placer mes renseignements utiles dans un contexte plus large (p. ex. communication narrative des données)."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I can synthesize and communicate data outputs in a variety of ways. I base my communication on the nature of the data, it's purpose and the audience (e.g. data storytelling, data-driven campaigning, reproducable research).",
+                    "default": "I build a compelling narrative around a set of data and visualizations to communicate key insights to decision-makers and stakeholders.",
                     "fr": "Je peux résumer et communiquer les sorties des données de plusieurs manières. J’ajuste ma communication selon la nature des données, leur but et le public cible (p. ex. communication narrative des données, campagnes axées sur les données, recherche reproductible)."
                 }
             }
@@ -871,7 +499,7 @@
         "type": "radiogroup",
         "name": "assessAndInterpret",
         "title": {
-            "default": "Assessing & Interpreting Data Outputs",
+            "default": "How would you describe your ability to assess and interpret data insights?",
             "fr": "Comment évaluez-vous et interprétez-vous les sorties des données?"
         },
         "isRequired": true,
@@ -886,21 +514,21 @@
             {
                 "value": 1,
                 "text": {
-                    "default": "I have heard about 'fake news'. I know I need to critically assess data outputs and interpret the results but  I am still unsure of what I need to look for to evaluate them",
+                    "default": "I know I need to critically assess the accuracy, assumptions, reliability and validity of data when presented as evidence. For example, I am aware that correlation is not causation.",
                     "fr": "J’ai entendu parler des « fausses nouvelles ». Je sais que je dois évaluer les sorties des données et interpréter les résultats de façon éclairée, mais je ne sais pas bien sur quoi me concentrer."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I know how to evaluate data outputs and can interpret the results confidently and critically.",
+                    "default": "I consistently question and challenge data outputs and results. I can interpet and translate insights into actionable knowledge.",
                     "fr": "Je sais comment évaluer les sorties des données et je peux interpréter les résultats avec confiance et de façon éclairée."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I consistently question and challenge data outputs and results. I can interpet and translate insights into actionable knowledge.",
+                    "default": "I use data to generate new ideas and innovative solutions to real world problems.",
                     "fr": "Je remets systématiquement en question les sorties des données et les résultats. Je peux interpréter les renseignements utiles et les traduire en connaissances utilisables."
                 }
             }
@@ -913,6 +541,5 @@
       }
      }
     ],
-    "showProgressBar": "bottom",
-    "progressBarType": "questions"
+    "showProgressBar": "bottom"
    }
