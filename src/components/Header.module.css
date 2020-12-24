@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
     height: 84px;
-    background-color: var(--csps-purple);
+    background-color: #003366;
+    border: none;
+    border-bottom: 2px solid #fcba19;	
     padding: 20px 30px;
     box-sizing: border-box;
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
@@ -11,10 +13,17 @@
 
 .header img {
     object-fit: contain;
+    position: relative;
+    bottom: 10px;
+    height: 150%;
     object-position: left;
 }
 
 .header img:last-of-type {
+    position: relative;
+    right: 20px;
+    bottom: 5px;
+    height: 120%;
     object-position: right;
 }
 
