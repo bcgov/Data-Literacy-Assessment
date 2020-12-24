@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import ChildLock from 'react-child-lock';
-import { GCSplashScreen } from 'gc-tortilla';
 import ReactMarkdown from 'react-markdown';
 import { getMarkdown, getUUID } from './helpers';
 import Header from './components/Header';
-import Toolbar from './components/Toolbar';
 import Survey from './components/Survey';
 import Persona from './components/Persona';
 import Footer from './components/Footer';
@@ -23,27 +20,18 @@ export default function Home(props) {
     useEffect(() => {
         getMarkdown(props.markdown.HowDataLiterateAreYou, setHowDataLiterate);
         getMarkdown(props.markdown.Purpose, setPurpose);
-        getMarkdown(props.markdown.WhoShouldUseThisAssessment, setWhoShouldUse);
+        getMarkdown(props.markdown.WhoShouldUseThisTool, setWhoShouldUse);
         getUUID();
-    },[]);
+    },[props.markdown.HowDataLiterateAreYou, props.markdown.Purpose, props.markdown.WhoShouldUseThisTool]);
 
     return (
         <div className={styles.home} style={{backgroundImage: `url(${bg})`}}>
-            {/* <ChildLock password="beta" background={{image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2252&q=80"}}/> */}
-            <GCSplashScreen
-                routes={{
-                    english: "/Data-Literacy-Assessment/",
-                    french: "/Data-Literacy-Assessment/fr"
-                }}
-                backgroundImage={"https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2252&q=80"}
-            />
             <Header/>
-            <Toolbar t={props.t} startedSurvey={startedSurvey}/>
             {!surveyResults &&
                 <React.Fragment>
                     {!startedSurvey &&
                         <div className={styles.contentContainer}>
-                            <h1>{props.t["Data Literacy and Persona Assessment"]}</h1>
+                            <h1>{props.t["Data Literacy Self-Assessment Tool"]}</h1>
                             <div className={styles.introContent}>
                                 <div>
                                     <h2>{props.t["How Data Literate Are You?"]}</h2>
@@ -54,7 +42,7 @@ export default function Home(props) {
                                     <ReactMarkdown source={purpose}/>
                                 </div>
                                 <div>
-                                    <h2>{props.t["Who Should Use this Assessment"]}</h2>
+                                    <h2>{props.t["Who Should Use this Tool"]}</h2>
                                     <ReactMarkdown source={whoShouldUse}/>
                                     <button onClick={() => startSurvey(true)}>{props.t["Start Assessment"]}</button>
                                 </div>
