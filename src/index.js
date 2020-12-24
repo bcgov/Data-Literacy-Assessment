@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App_EN from './App_EN';
-import App_FR from './App_FR';
 import * as serviceWorker from './serviceWorker';
 
 if (document.documentElement.lang === "fr"){
