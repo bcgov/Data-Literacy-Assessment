@@ -1,4 +1,4 @@
-Uses advanced analytics and modelling techniques to turn raw data into actionable insights, and develops data-driven products and solutions.
+Employees who are working in direct support of programs and services with British Columbians, communities, business or other stakeholders. Front line staff often generate data from their interactions with clients.
 
 Where are they in the BCPS?
-* Can be centralized in an organizational data science team or embedded within program/policy areas
+* Anywhere in the BCPS, delivering programs or services to citizens, businesses, not-for-profit organizations, academia or other levels of government. 
