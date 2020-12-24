@@ -1,6 +1,6 @@
 [
     {
-        "title": "Novice",
+        "title": "Foundational",
         "emoji": "🏅",
         "score": {
             "min": 0,
@@ -8,7 +8,7 @@
         }
     },
     {
-        "title": "Apprentice",
+        "title": "Capable",
         "emoji": "🏆",
         "score": {
             "min": 6,
@@ -16,7 +16,7 @@
         }
     },
     {
-        "title": "Practitioner",
+        "title": "Advanced",
         "emoji": "⭐",
         "score": {
             "min": 16,
@@ -24,11 +24,11 @@
         }
     },
     {
-        "title": "Expert",
+        "title": "Leading",
         "emoji": "🌟",
         "score": {
             "min": 26,
-            "max": 33
+            "max": 35
         }
     }
 ]
