@@ -15,7 +15,7 @@ export default function Toolbar(props) {
     }
 
     function switchLangPathname() {
-        window.location.pathname = props.t.getOppositeLocale != "en" ? `/Data-Literacy-Assessment/${props.t.getOppositeLocale}` : "/Data-Literacy-Assessment";
+        window.location.pathname = props.t.getOppositeLocale !== "en" ? `/Data-Literacy-Assessment/${props.t.getOppositeLocale}` : "/Data-Literacy-Assessment";
     }
 
     return (
