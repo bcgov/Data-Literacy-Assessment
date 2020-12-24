@@ -4,7 +4,7 @@ import dictionary from './dictionaries/en';
 
 import HowDataLiterateAreYou from './content/en/HowDataLiterateAreYou.md';
 import Purpose from './content/en/Purpose.md';
-import WhoShouldUseThisAssessment from './content/en/WhoShouldUseThisAssessment.md';
+import WhoShouldUseThisTool from './content/en/WhoShouldUseThisTool.md';
 
 import AssessmentResults from './content/en/AssessmentResults.md';
 import DataPersona from './content/en/DataPersona.md';
@@ -13,19 +13,19 @@ import DataLiteracyLevel from './content/en/DataLiteracyLevel.md';
 import FrontLine from './content/en/personas/FrontLine.md';
 import Analyst from './content/en/personas/Analyst.md';
 import DataScientist from './content/en/personas/DataScientist.md';
-import DataSteward from './content/en/personas/DataSteward.md';
-import IT from './content/en/personas/IT.md';
-import Executive from './content/en/personas/Executive.md';
+import DataGovernor from './content/en/personas/DataGovernor.md';
+import Architect from './content/en/personas/Architect.md';
+import BusinessTranslator from './content/en/personas/BusinessTranslator.md';
 
-import Novice from './content/en/literacyLevels/Novice.md';
-import Apprentice from './content/en/literacyLevels/Apprentice.md';
-import Practitioner from './content/en/literacyLevels/Practitioner.md';
-import Expert from './content/en/literacyLevels/Expert.md';
+import Foundational from './content/en/literacyLevels/Foundational.md';
+import Capable from './content/en/literacyLevels/Capable.md';
+import Advanced from './content/en/literacyLevels/Advanced.md';
+import Leading from './content/en/literacyLevels/Leading.md';
 
-import NoviceCourses from './content/en/courses/NoviceCourses.md';
-import ApprenticeCourses from './content/en/courses/ApprenticeCourses.md';
-import PractitionerCourses from './content/en/courses/PractitionerCourses.md';
-import ExpertCourses from './content/en/courses/ExpertCourses.md';
+import FoundationalCourses from './content/en/courses/FoundationalCourses.md';
+import CapableCourses from './content/en/courses/CapableCourses.md';
+import AdvancedCourses from './content/en/courses/AdvancedCourses.md';
+import LeadingCourses from './content/en/courses/LeadingCourses.md';
 
 export default function App_EN() {
     return (
@@ -34,7 +34,7 @@ export default function App_EN() {
             markdown={{
                 HowDataLiterateAreYou,
                 Purpose,
-                WhoShouldUseThisAssessment,
+                WhoShouldUseThisTool,
                 AssessmentResults,
                 DataPersona,
                 DataLiteracyLevel,
@@ -42,21 +42,21 @@ export default function App_EN() {
                     FrontLine,
                     Analyst,
                     DataScientist,
-                    DataSteward,
-                    IT,
-                    Executive
+                    DataGovernor,
+                    Architect,
+                    BusinessTranslator
                 },
                 literacyLevels: {
-                    Novice,
-                    Apprentice,
-                    Practitioner,
-                    Expert
+                    Foundational,
+                    Capable,
+                    Advanced,
+                    Leading
                 },
                 courses: {
-                    NoviceCourses,
-                    ApprenticeCourses,
-                    PractitionerCourses,
-                    ExpertCourses
+                    FoundationalCourses,
+                    CapableCourses,
+                    AdvancedCourses,
+                    LeadingCourses
                 }
             }}
         />
