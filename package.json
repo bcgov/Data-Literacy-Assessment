@@ -1,7 +1,7 @@
 {
-  "name": "data-literacy-persona",
+  "name": "bc-data-literacy-self-assessment",
   "version": "0.1.0",
-  "homepage": "https://dis-sin.github.io/Data-Literacy-Assessment/",
+  "homepage": "https://bcgov.github.io/bc-data-literacy-self-assessment/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
