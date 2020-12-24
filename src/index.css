@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 :root {
-    --csps-purple: rgb(63, 42, 86);
+    --bcgov-blue: #003366;
     --csps-grey: rgb(78, 91, 115);
     --csps-light-grey: #EDEFF1;
     --csps-medium-grey: #E5E7EA;
     --csps-coral: #DA797A;
 
-    --light-text-color: #545454;
+    --light-text-color: rgb(79, 79, 79);
 }
 
 body {
@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.125rem;
+    font-size: 1.55rem;
     font-weight: normal;
 }
 
@@ -44,7 +44,7 @@ code {
 }
 
 button, .sv_nav input {
-    font-size: 0.75rem !important;
+    font-size: 1rem !important;
     font-weight: normal !important;
     padding: 10px 25px !important;
     border-radius: 5px !important;
@@ -52,7 +52,7 @@ button, .sv_nav input {
     cursor: pointer !important;
     border-color: #434E63 !important;
     color: white !important;
-    background-color: var(--csps-grey) !important;
+    background-color: var(--bcgov-blue) !important;
     -webkit-appearance: none;
 }
 button.light {
