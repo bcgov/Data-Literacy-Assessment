@@ -1,6 +1,6 @@
 import React from 'react';
-import FIPBar from '../content/images/fipBar.png';
-import FIPCanada from '../content/images/fipCanada.png';
+import FIPBar from '../content/images/BCDataLiteracy.png';
+import FIPCanada from '../content/images/bcgovlogo.jpg';
 import styles from './Footer.module.css';
 
 export default function Footer(props) {
