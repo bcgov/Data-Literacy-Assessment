@@ -1,1 +1,0 @@
-Data literacy can be defined as the ability to understand, manage and communicate data as meanginful information. This area of study is broad, with different specializations and advanced learning requirements in some areas. There are lots of ways to improve your data literacy, including participation on projects with a data component, courses, articles, blogs, videos and more.
