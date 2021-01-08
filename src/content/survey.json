@@ -7,58 +7,50 @@
               "type": "radiogroup",
               "name": "aboutYou",
               "title": {
-                  "default": "Which statement best describes your relation to data?",
-                  "fr": "Quel énoncé décrit le mieux la culture de votre organisation quant au travail avec les données?"
+                  "default": "Which statement best describes your relation to data?"
               },
               "isRequired": true,
               "choices": [
                   {
                       "value": 0,
                       "text": {
-                          "default": "I consult and create data through delivering programs and services to citizens, businesses, not-for-profit organizations, academia or other levels of government.",
-                          "fr": "Le terme « données » est vague et suscite de l’insécurité. Aucun employé possédant une expérience importante dans le domaine des données ne travaille ici."
+                          "default": "I consult and create data through delivering programs and services to citizens, businesses, not-for-profit organizations, academia or other levels of government."
                       }
                   },
                   {   "value": 1,
                       "text": {
-                          "default": "I identify and interpret trends and patterns in datasets, and communicate conclusions and recommendations to decision makers and stakeholders.",
-                          "fr": "Les données sont un concept intéressant qui présente de grands avantages. On ne sait pas exactement quand utiliser les données et à quoi s’attendre. Les employés ayant des connaissances en analyse de données occupent des postes spécialisés."
+                          "default": "I identify and interpret trends and patterns in datasets, and communicate conclusions and recommendations to decision makers and stakeholders."
                       }
                   },
                   {
                       "value": 4,
                       "text": {
-                          "default": "I use advanced statistical, algorithmic, mining and visualization techniques for developing data solutions to business problems.",
-                          "fr": "Les données sont considérées comme un outil pour progresser et appuyer les activités existantes et planifiées. Les cadres supérieurs et les employés spécialisés sont parfaitement conscients de la nécessité de collecter, de stocker et de gérer les données. L’analyse de données est considérée comme une compétence recherchée."
+                          "default": "I use advanced statistical, algorithmic, mining and visualization techniques for developing data solutions to business problems."
                       }
                   },
                   {
                       "value": 2,
                       "text": {
-                          "default": "I make operational and strategic planning decisions based on analytical insights derived from data.",
-                          "fr": "Les barrières psychologiques à l’accès aux données ont été éliminées et le confort vis-à-vis des données est favorisé. Les renseignements utiles issus de l’analyse des données sont utilisés et optimisés à tous les niveaux du flux de travail. La littératie des données est une compétence importante pour la plupart des employés, même au niveau des cadres supérieurs. Certaines ressources (temps, budget, ressources humaines) sont consacrées au traitement et à la conversion des données."
+                          "default": "I make operational and strategic planning decisions based on analytical insights derived from data."
                       }
                   },
                   {
                     "value": 3,
                     "text": {
-                        "default": "I oversee the management of government data throughout its entire lifecycle.",
-                        "fr": "Les barrières psychologiques à l’accès aux données ont été éliminées et le confort vis-à-vis des données est favorisé. Les renseignements utiles issus de l’analyse des données sont utilisés et optimisés à tous les niveaux du flux de travail. La littératie des données est une compétence importante pour la plupart des employés, même au niveau des cadres supérieurs. Certaines ressources (temps, budget, ressources humaines) sont consacrées au traitement et à la conversion des données."
+                        "default": "I oversee the management of government data throughout its entire lifecycle." 
                     }
                 },
                   {
                     "value": 5,
                     "text": {
-                        "default": "I design, implement and maintain the architecture needed to collect and analyze large datasets.",
-                        "fr": "Les barrières psychologiques à l’accès aux données ont été éliminées et le confort vis-à-vis des données est favorisé. Les renseignements utiles issus de l’analyse des données sont utilisés et optimisés à tous les niveaux du flux de travail. La littératie des données est une compétence importante pour la plupart des employés, même au niveau des cadres supérieurs. Certaines ressources (temps, budget, ressources humaines) sont consacrées au traitement et à la conversion des données."
+                        "default": "I design, implement and maintain the architecture needed to collect and analyze large datasets."
                     }
                 }
               ]
              }
             ],
             "title": {
-                "default": "About You",
-                "fr": "Culture de données"
+                "default": "About You"
               }
            },
      {
@@ -68,44 +60,38 @@
         "type": "radiogroup",
         "name": "dataCulture",
         "title": {
-            "default": "How would you describe your understanding of how data flows through your organization?",
-            "fr": "Quel énoncé décrit le mieux la culture de votre organisation quant au travail avec les données?"
+            "default": "How would you describe your understanding of how data flows through your organization?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I am aware that my organization has data, but I am unsure how it is collected, managed and used to benefit British Columbians.",
-                    "fr": "Le terme « données » est vague et suscite de l’insécurité. Aucun employé possédant une expérience importante dans le domaine des données ne travaille ici."
+                    "default": "I am aware that my organization has data, but I am unsure how it is collected, managed and used to benefit British Columbians."
                 }
             },
             {   "value": 1,
                 "text": {
-                    "default": "I have a general understanding of the workflow to acquire, process and analyze data to solve business problems.",
-                    "fr": "Les données sont un concept intéressant qui présente de grands avantages. On ne sait pas exactement quand utiliser les données et à quoi s’attendre. Les employés ayant des connaissances en analyse de données occupent des postes spécialisés."
+                    "default": "I have a general understanding of the workflow to acquire, process and analyze data to solve business problems."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I have a detailed understanding of all stages of the data lifecycle, from creation and initial storage to the time it is archived or become obsolete and is deleted.",
-                    "fr": "Les données sont considérées comme un outil pour progresser et appuyer les activités existantes et planifiées. Les cadres supérieurs et les employés spécialisés sont parfaitement conscients de la nécessité de collecter, de stocker et de gérer les données. L’analyse de données est considérée comme une compétence recherchée."
+                    "default": "I have a detailed understanding of all stages of the data lifecycle, from creation and initial storage to the time it is archived or become obsolete and is deleted."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I develop data lifecycle management policies and processes to promote the preservation, protection, access, re-use and shareability of government data assets.",
-                    "fr": "Les barrières psychologiques à l’accès aux données ont été éliminées et le confort vis-à-vis des données est favorisé. Les renseignements utiles issus de l’analyse des données sont utilisés et optimisés à tous les niveaux du flux de travail. La littératie des données est une compétence importante pour la plupart des employés, même au niveau des cadres supérieurs. Certaines ressources (temps, budget, ressources humaines) sont consacrées au traitement et à la conversion des données."
+                    "default": "I develop data lifecycle management policies and processes to promote the preservation, protection, access, re-use and shareability of government data assets."
                 }
             }
         ]
        }
       ],
       "title": {
-          "default": "Data Culture",
-          "fr": "Culture de données"
+          "default": "Data Culture"
         }
      },
      {
@@ -115,45 +101,39 @@
         "type": "radiogroup",
         "name": "dataEthicsAndSecurity",
         "title": {
-            "default": "Which statement best describes your familiarity with data ethics and security?",
-            "fr": "Quel énoncé décrit le mieux le point de vue de votre organisation en matière d’éthique et de sécurité des données?"
+            "default": "Which statement best describes your familiarity with data ethics and security?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I am not aware of any specific guidelines that ensure a responsible use and sharing of data.",
-                    "fr": "Je ne suis pas sûr de la manière dont les données sont traitées dans mon organisation. Il n’existe aucune ligne directrice sur la confidentialité, l’intégrité et la disponibilité des données."
+                    "default": "I am not aware of any specific guidelines that ensure a responsible use and sharing of data."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I once completed a Privacy Impact Assessment (PIA) to make sure the information I collect or use in my project is protected.",
-                    "fr": "Certains employés et responsables de projet sont conscients des problèmes de sécurité potentiels, et des efforts non coordonnés sont déployés pour traiter les données en toute sécurité. L’importance d’une utilisation responsable des données est de plus en plus reconnue, mais aucune ligne directrice n’est mise en place."
+                    "default": "I once completed a Privacy Impact Assessment (PIA) to make sure the information I collect or use in my project is protected."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I identify risks whenever I collect or use data, and robust privacy controls are established to ensure the confidentiality, integrity and security of data throughout its lifecycle.",
-                    "fr": "Des lignes directrices sur la protection des données sont en place et les employés savent comment communiquer les données de façon responsable. Il existe des politiques à l’échelle de l’organisation pour un traitement des données sûr et éthique."
+                    "default": "I identify risks whenever I collect or use data, and robust privacy controls are established to ensure the confidentiality, integrity and security of data throughout its lifecycle."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I have experience in developing and overseeing compliance with privacy protection policies and procedures.",
-                    "fr": "À l’échelle de l’organisation, des politiques cohérentes sur le traitement des données sûr et éthique sont constamment redéfinies et mises à jour. Les cadres supérieurs sont responsables de les faire respecter. Des processus sont en place pour garantir la confidentialité, l’intégrité et la disponibilité des données."
+                    "default": "I have experience in developing and overseeing compliance with privacy protection policies and procedures."
                 }
             }
         ]
        }
       ],
       "title": {
-          "default": "Data Ethics and Security",
-          "fr": "Éthique et sécurité des données"
+          "default": "Data Ethics and Security"
         }
      },
      {
@@ -163,45 +143,39 @@
         "type": "radiogroup",
         "name": "askQuestions",
         "title": {
-            "default": "How would you describe your ability to formulate questions to get meaningful insights from data?",
-            "fr": "Comment décririez-vous votre capacité à formuler des questions pour dégager des renseignements utiles à partir de données?"
+            "default": "How would you describe your ability to formulate questions to get meaningful insights from data?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I have no idea what kind of problems can be solved with the use of data.",
-                    "fr": "Je n’ai aucune idée des questions auxquelles les données peuvent répondre."
+                    "default": "I have no idea what kind of problems can be solved with the use of data."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I am able to formulate questions that can be answered with simple data queries.",
-                    "fr": "Je suis capable de formuler des questions auxquelles on peut répondre avec de simples requêtes de données."
+                    "default": "I am able to formulate questions that can be answered with simple data queries."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I develop projects based on questions that need complex data queries and multiple iterations to resolve.",
-                    "fr": "J’élabore des projets fondés sur des questions qui exigent des requêtes de données complexes et de multiples itérations pour y répondre."
+                    "default": "I develop projects based on questions that need complex data queries and multiple iterations to resolve."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I regularly translate business needs into analytic or reporting requirements to support program, project or policy goals, including monitoring progress and evaluating performance.",
-                    "fr": "Mes projets sont fondés sur des questions multidimensionnelles qui exigent des requêtes de données complexes et répondent à toutes les questions principales et sous-questions. Aucune personne à elle seule ne peut gérer ces demandes."
+                    "default": "I regularly translate business needs into analytic or reporting requirements to support program, project or policy goals, including monitoring progress and evaluating performance."
                 }
             }
         ]
        }
       ],
       "title": {
-          "default": "Asking the Right Questions",
-          "fr": "Questions posées pour recueillir des données"
+          "default": "Asking the Right Questions"
         }
      },
      {
@@ -211,37 +185,32 @@
         "type": "radiogroup",
         "name": "find",
         "title": {
-            "default": "Which data sources / strategies do you use in order to find data?",
-            "fr": "Quelles sources de données ou stratégies utilisez-vous pour trouver des données?"
+            "default": "Which data sources / strategies do you use in order to find data?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I use basic search engines like Google to try to find data.",
-                    "fr": "J’utilise des moteurs de recherche de base pour trouver des données."
+                    "default": "I use basic search engines like Google to try to find data."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I know a few data portals and public databases, and can choose the most relevant ones to help me with my work.",
-                    "fr": "Je sais où trouver quelques sources de données et j’utilise des moteurs de recherche de façon avancée pour les trouver."
+                    "default": "I know a few data portals and public databases, and can choose the most relevant ones to help me with my work."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I use advanced methods and software to collect and combine data from multiple sources to solve business problems.",
-                    "fr": "Je comprends bien les différentes sources de données et je peux choisir celles qui sont les plus utiles à mon travail. Je connais et utilise des portails de données ouvertes pour certains sujets."
+                    "default": "I use advanced methods and software to collect and combine data from multiple sources to solve business problems."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I can detect when a given problem or need cannot be solved with the existing data, and know how to deploy research techniques to obtain new data.",
-                    "fr": "Je comprends très bien les divers types de sources de données possibles. Je crée des critères d’évaluation pour sélectionner les plus utiles à mes besoins opérationnels. Je peux reconnaître qu’un problème ou besoin ne peut pas être géré avec les données existantes, et je sais comment déployer des techniques de recherche pour obtenir de nouvelles données (p. ex. requêtes complexes)."
+                    "default": "I can detect when a given problem or need cannot be solved with the existing data, and know how to deploy research techniques to obtain new data."
                 }
             }
         ]
@@ -259,45 +228,39 @@
         "type": "radiogroup",
         "name": "clean",
         "title": {
-            "default": "Which strategies do you use to clean your data?",
-            "fr": "Quelles stratégies utilisez-vous pour nettoyer vos données?"
+            "default": "Which strategies do you use to clean your data?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I did not know that data might have to be checked, cleaned or normalized. I use data as is.",
-                    "fr": "Je ne savais pas que les données devaient être vérifiées, nettoyées ou normalisées. J’utilise les données telles quelles."
+                    "default": "I did not know that data might have to be checked, cleaned or normalized. I use data as is."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I know that data is not perfect. I am aware of common data quality issues (e.g. empty fields, duplicates) and can manually fix errors.",
-                    "fr": "Je sais que les données ne sont pas parfaites. Je suis au courant de certains critères de qualité des données (p. ex. champs vides, doublons) et je peux corriger les erreurs manuellement."
+                    "default": "I know that data is not perfect. I am aware of common data quality issues (e.g. empty fields, duplicates) and can manually fix errors."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": " I am very aware of data quality criteria (e.g. machine processable, empty fields, duplicate detection). I detect and remove invalid records using programs that support data cleaning.",
-                    "fr": "Je détecte et retire les enregistrements non valides au moyen de programmes qui aident au nettoyage des données (p. ex. OpenRefine). Je connais très bien les critères de qualité des données (p. ex. traitables par machine, champs vides, détection des doublons)."
+                    "default": " I am very aware of data quality criteria (e.g. machine processable, empty fields, duplicate detection). I detect and remove invalid records using programs that support data cleaning."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I am able to remove invalid records and translate all the columns to use a same set of values through an automated script. I often combine different datasets into a single table, remove duplicate entries or apply any number of other normalizations.",
-                    "fr": "Je suis capable de retirer les enregistrements non valides et de traduire toutes les colonnes pour utiliser le même ensemble de valeurs au moyen d’un script automatisé. Il arrive souvent que je combine différents ensembles de données en un seul tableau, retire les enregistrements en double ou applique d’autres normalisations."
+                    "default": "I am able to remove invalid records and translate all the columns to use a same set of values through an automated script. I often combine different datasets into a single table, remove duplicate entries or apply any number of other normalizations."
                 }
             }
         ]
        }
       ],
       "title": {
-          "default": "Cleaning Data",
-          "fr": "Nettoyage des données"
+          "default": "Cleaning Data"
       }
      },
      {
@@ -307,45 +270,39 @@
           "type": "radiogroup",
           "name": "manage",
           "title": {
-              "default":"Which strategies do you use in order to manage data?",
-              "fr":"Quelles stratégies utilisez-vous pour recueillir des données?"
+              "default":"Which strategies do you use in order to manage data?"
           },
           "isRequired": true,
           "choices": [
               {
                   "value": 0,
                   "text": {
-                      "default": "I did not realize that data had to be managed to support the integrity, security and accessibility of the data.",
-                      "fr": "Je recueille des données au moyen de formulaires et de sondages en texte intégral et les utilise comme base pour des analyses plus poussées."
+                      "default": "I did not realize that data had to be managed to support the integrity, security and accessibility of the data."
                   }
               },
               {
                   "value": 1,
                   "text": {
-                      "default": "I can collect, edit and store simple datasets in a spreadsheet. I am aware of the importance of creating appropriate metadata descriptors (e.g. author, date created, access rights) to fully document the data set.",
-                      "fr": "J’utilise souvent des programmes internes pour accéder à des données (p. ex. Excel) et des téléchargements en format de données comme .csv."
+                      "default": "I can collect, edit and store simple datasets in a spreadsheet. I am aware of the importance of creating appropriate metadata descriptors (e.g. author, date created, access rights) to fully document the data set."
                   }
               },
               {
                   "value": 2,
                   "text": {
-                      "default": "I am able to design, implement and manage large databases, including big data environments and real-time dashboards. I follow data standards that are implemented across the organizations. ",
-                      "fr": "J’accède à des données en utilisant des formats de données complexes (p. ex. JSON, XML). Je peux utiliser des interfaces API pour obtenir des données."
+                      "default": "I am able to design, implement and manage large databases, including big data environments and real-time dashboards. I follow data standards that are implemented across the organizations."
                   }
               },
               {
                   "value": 3,
                   "text": {
-                      "default": "I integrate collected data with existing information systems, setting up data pipelines and improving the interoperability of data. I support the creation and maintenance of data dictionaries to document corporate datasets.",
-                      "fr": "J’accède à des données à l’aide de programmes et d’autres méthodes perfectionnées (p. ex. grattages ou scripts automatisés des données). Je peux convertir un format d’entrée en formulaire qui peut être utilisé pour des analyses et des traitements plus poussés."
+                      "default": "I integrate collected data with existing information systems, setting up data pipelines and improving the interoperability of data. I support the creation and maintenance of data dictionaries to document corporate datasets."
                   }
               }
           ]
          }
         ],
         "title": {
-            "default": "Managing Data",
-              "fr": "Collecte de données"
+            "default": "Managing Data"
           }
        },
      {
@@ -355,45 +312,39 @@
         "type": "radiogroup",
         "name": "analyze",
         "title": {
-            "default": "How do you analyze your data?",
-            "fr": "Comment analysez-vous vos données?"
+            "default": "How do you analyze your data?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I simply use basic summaries of data to read information.",
-                    "fr": "Je crée des tableaux de données simples et des sommaires de base des données. J’utilise souvent des graphiques à barres et à secteurs."
+                    "default": "I simply use basic summaries of data to read information."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I work with basic descriptive statistics to identify basic relationships, trends and patterns in data. I often use bar and pie charts.",
-                    "fr": "Je travaille avec des statistiques descriptives de base et j’utilise des tableaux croisés dynamiques pour regrouper l’information. J’utilise souvent des histogrammes et des diagrammes à surfaces."
+                    "default": "I work with basic descriptive statistics to identify basic relationships, trends and patterns in data. I often use bar and pie charts."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I can work with advanced statistics and create inferential views of data, linear regressions and decision trees.",
-                    "fr": "Je peux travailler avec des statistiques avancées et créer des vues inférentielles des données, des régressions linéaires et des arbres décisionnels."
+                    "default": "I can work with advanced statistics and create inferential views of data, linear regressions and decision trees."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I am able to use modern statistical software to perform various machine learning techniques, such as clustering, forecasting, and natural language processing.",
-                    "fr": "Je suis capable d’utiliser une suite complète d’outils d’apprentissage automatique (p. ex. regroupement, prévision, dopage, apprentissage par ensemble) pour analyser les données."
+                    "default": "I am able to use modern statistical software to perform various machine learning techniques, such as clustering, forecasting, and natural language processing."
                 }
             }
         ]
        }
       ],
       "title": {
-          "default": "Analyze Data",
-          "fr": "Analyse des données"
+          "default": "Analyze Data"
       }
      },
      {
@@ -403,45 +354,39 @@
         "type": "radiogroup",
         "name": "visualize",
         "title": {
-            "default": "Which strategy do you use to visualize your data?",
-            "fr": "Quelle stratégie utilisez-vous pour visualiser vos données ?"
+            "default": "Which strategy do you use to visualize your data?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I don’t know how to present data. I choose standard visualizations based on what looks best.",
-                    "fr": "Je ne sais pas comment présenter les données. Je choisis des visualisations courantes en fonction de ce qui me semble le mieux (essais et erreurs)."
+                    "default": "I don’t know how to present data. I choose standard visualizations based on what looks best."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I visualize specific information that can easily be represented in a table or graph (e.g. 2 variable using Excel).",
-                    "fr": "Je peux visualiser des informations spécifiques qui peuvent être facilement représentées (par exemple, 2 variables en utilisant Excel)."
+                    "default": "I visualize specific information that can easily be represented in a table or graph (e.g. 2 variable using Excel)."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I design interactive charts or dashboards using advanced visual analytics tools. I can choose the visualization that best fits my target audience and data story.",
-                    "fr": "Je crée des graphiques/tableaux de bord interactifs en utilisant des outils d'analyse visuelle (par exemple, Tableau)."
+                    "default": "I design interactive charts or dashboards using advanced visual analytics tools. I can choose the visualization that best fits my target audience and data story."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I can create sophisticated visualizations that update automatically with real-time data and anticipate users needs.",
-                    "fr": "Je suis capable de visualiser les incertitudes en même temps que les données (gamme de valeurs). -Je peux créer des visualisations et des tableaux de bord sophistiqués qui sont liés aux données et anticipent les besoins des utilisateurs."
+                    "default": "I can create sophisticated visualizations that update automatically with real-time data and anticipate users needs."
                 }
             }
         ]
        }
       ],
       "title": {
-          "default": "Visualize Data",
-          "fr": "Visualiser les données"
+          "default": "Visualize Data"
       }
      },
      {
@@ -451,45 +396,39 @@
         "type": "radiogroup",
         "name": "communicate",
         "title": {
-            "default": "How do you communicate your data outputs?",
-            "fr": "Comment communiquez-vous vos sorties de données?"
+            "default": "How do you communicate your data outputs?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I do not know how to communicate my data findings or how to put them into a broader context.",
-                    "fr": "Je ne sais pas comment communiquer mes conclusions ou comment les replacer dans un contexte plus vaste."
+                    "default": "I do not know how to communicate my data findings or how to put them into a broader context."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I am able to develop reports and prepare static visual summaries illustrating and supporting data insights.",
-                    "fr": "J’ai une capacité limitée à utiliser les sorties des données. J’utilise des textes simples qui étayent les visualisations statiques et les chiffres clés (p. ex. rapports opérationnels)."
+                    "default": "I am able to develop reports and prepare static visual summaries illustrating and supporting data insights."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I use common presentation tools to present key takeaway points and make recommendations.",
-                    "fr": "Mon travail s’appuie sur des visualisations interactives et des textes complexes pour placer mes renseignements utiles dans un contexte plus large (p. ex. communication narrative des données)."
+                    "default": "I use common presentation tools to present key takeaway points and make recommendations."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I build a compelling narrative around a set of data and visualizations to communicate key insights to decision-makers and stakeholders.",
-                    "fr": "Je peux résumer et communiquer les sorties des données de plusieurs manières. J’ajuste ma communication selon la nature des données, leur but et le public cible (p. ex. communication narrative des données, campagnes axées sur les données, recherche reproductible)."
+                    "default": "I build a compelling narrative around a set of data and visualizations to communicate key insights to decision-makers and stakeholders."
                 }
             }
         ]
        }
       ],
       "title": {
-          "default": "Communicating with Data",
-          "fr": "Communication à partir des données"
+          "default": "Communicating with Data"
       }
      },
      {
@@ -499,45 +438,39 @@
         "type": "radiogroup",
         "name": "assessAndInterpret",
         "title": {
-            "default": "How would you describe your ability to assess and interpret data insights?",
-            "fr": "Comment évaluez-vous et interprétez-vous les sorties des données?"
+            "default": "How would you describe your ability to assess and interpret data insights?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I take reports and visualizations at face value without questioning their correctness and message.",
-                    "fr": "Je ne mets pas en doute les rapports et les visualisations ni leur exactitude et leur signification."
+                    "default": "I take reports and visualizations at face value without questioning their correctness and message."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I know I need to critically assess the accuracy, assumptions, reliability and validity of data when presented as evidence. For example, I am aware that correlation is not causation.",
-                    "fr": "J’ai entendu parler des « fausses nouvelles ». Je sais que je dois évaluer les sorties des données et interpréter les résultats de façon éclairée, mais je ne sais pas bien sur quoi me concentrer."
+                    "default": "I know I need to critically assess the accuracy, assumptions, reliability and validity of data when presented as evidence. For example, I am aware that correlation is not causation."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I consistently question and challenge data outputs and results. I can interpet and translate insights into actionable knowledge.",
-                    "fr": "Je sais comment évaluer les sorties des données et je peux interpréter les résultats avec confiance et de façon éclairée."
+                    "default": "I consistently question and challenge data outputs and results. I can interpet and translate insights into actionable knowledge."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I use data to generate new ideas and innovative solutions to real world problems.",
-                    "fr": "Je remets systématiquement en question les sorties des données et les résultats. Je peux interpréter les renseignements utiles et les traduire en connaissances utilisables."
+                    "default": "I use data to generate new ideas and innovative solutions to real world problems."
                 }
             }
         ]
        }
       ],
       "title": {
-          "default": "Assessing & Interpreting Data Outputs",
-          "fr": "Évaluation et interprétation des sorties des données"
+          "default": "Assessing & Interpreting Data Outputs"
       }
      }
     ],
