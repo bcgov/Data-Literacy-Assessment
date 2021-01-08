@@ -24,7 +24,7 @@ For the aspiring data scientist, this set of three courses explains what data sc
 
 **Develop ability to communicate with data**
 
-[Discovering and Collecting Data: Practical Advice for Government Managers](http://sppd.thegovlab.org/lectures/discovering-and-collecting-data-practical-advice-for-government-managers.html) (GovLab) |12 mins
+[Discovering and Collecting Data: Practical Advice for Government Managers](http://sppd.thegovlab.org/lectures/discovering-and-collecting-data-practical-advice-for-government-managers.html) (GovLab) | 12 mins
 
 Geared for the public sector, find out how to collect data, assess its value, and learn the skills you need to use data to meet your goals.
 
