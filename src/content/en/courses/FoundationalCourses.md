@@ -30,7 +30,7 @@ This course provides a basic understanding of statistics, including descriptive 
 
 Get introduced to data visualization and learn systematic mathematical techniques for understanding data relationships.
 
-[Visualization: Visual Representations of Data and Information](https://www.open.edu/openlearn/science-maths-technology/computing-ict/visualisation-visual-representations-data-and-information/content-section-0?active-tab=content-tab) (Open Learn) | Introductory | 8 hours | 
+[Visualization: Visual Representations of Data and Information](https://www.open.edu/openlearn/science-maths-technology/computing-ict/visualisation-visual-representations-data-and-information/content-section-0?active-tab=content-tab) (Open Learn) | Introductory | 8 hours 
 
 This course defines what is meant by the term “visualization” within the context of data and information, and introduces to the main data visualization methods and techniques.
 
