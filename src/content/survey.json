@@ -7,43 +7,43 @@
               "type": "radiogroup",
               "name": "aboutYou",
               "title": {
-                  "default": "Which statement best describes your relation to data?"
+                  "default": "What best describes your relation to data?"
               },
               "isRequired": true,
               "choices": [
                   {
                       "value": 0,
                       "text": {
-                          "default": "I consult and create data through delivering programs and services to citizens, businesses, not-for-profit organizations, academia or other levels of government."
+                          "default": "I gather or create data through program or service delivery."
                       }
                   },
                   {   "value": 1,
                       "text": {
-                          "default": "I identify and interpret trends and patterns in datasets, and communicate conclusions and recommendations to decision makers and stakeholders."
+                          "default": "I interpret trends and patterns in datasets, and communicate conclusions and recommendations to others."
                       }
                   },
                   {
                       "value": 4,
                       "text": {
-                          "default": "I use advanced statistical, algorithmic, mining and visualization techniques for developing data solutions to business problems."
+                          "default": "I use advanced analytics (e.g., inferential statistics, algorithms, data mining) to develop solutions to business problems."
                       }
                   },
                   {
                       "value": 2,
                       "text": {
-                          "default": "I make operational and strategic planning decisions based on analytical insights derived from data."
+                          "default": "I make operational and strategic planning decisions based on data-derived insights."
                       }
                   },
                   {
                     "value": 3,
                     "text": {
-                        "default": "I oversee the management of government data throughout its entire lifecycle." 
+                        "default": "I manage government data throughout its entire lifecycle." 
                     }
                 },
                   {
                     "value": 5,
                     "text": {
-                        "default": "I design, implement and maintain the architecture needed to collect and analyze large datasets."
+                        "default": "I design, implement and maintain the architecture for datasets, databases and data warehouses."
                     }
                 }
               ]
@@ -60,31 +60,31 @@
         "type": "radiogroup",
         "name": "dataCulture",
         "title": {
-            "default": "How would you describe your understanding of how data flows through your organization?"
+            "default": "What best describes your knowledge of how data is used your organization?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I am aware that my organization has data, but I am unsure how it is collected, managed and used to benefit British Columbians."
+                    "default": "I am unsure (or, am beginning to learn) how my organization or area collects, manages, or uses data."
                 }
             },
             {   "value": 1,
                 "text": {
-                    "default": "I have a general understanding of the workflow to acquire, process and analyze data to solve business problems."
+                    "default": "I understand the workflow to collect, manage, analyze and apply data to solve business problems."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I have a detailed understanding of all stages of the data lifecycle, from creation and initial storage to the time it is archived or become obsolete and is deleted."
+                    "default": "I understand the data management processes in my organization, from creation and initial storage to archiving and deletion."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I develop data lifecycle management policies and processes to promote the preservation, protection, access, re-use and shareability of government data assets."
+                    "default": "I develop data management policies in my organization to promote the preservation, protection, access, re-use and shareability of government data assets."
                 }
             }
         ]
@@ -101,32 +101,32 @@
         "type": "radiogroup",
         "name": "dataEthicsAndSecurity",
         "title": {
-            "default": "Which statement best describes your familiarity with data ethics and security?"
+            "default": "What best describes your familiarity with data ethics and security?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I am not aware of any specific guidelines that ensure a responsible use and sharing of data."
+                    "default": "I am unsure (or, am beginning to learn) about guidelines on the responsible use and sharing of data."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I once completed a Privacy Impact Assessment (PIA) to make sure the information I collect or use in my project is protected."
+                    "default": "I understand key elements about responsible use and sharing of data, like completing a PIAs. "
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I identify risks whenever I collect or use data, and robust privacy controls are established to ensure the confidentiality, integrity and security of data throughout its lifecycle."
+                    "default": "I regularly identify ethics or security risks around data collection or usage, and establish controls to ensure data confidentiality, integrity, and security."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I have experience in developing and overseeing compliance with privacy protection policies and procedures."
+                    "default": "I have developed or overseen compliance with privacy protection policies and procedures."
                 }
             }
         ]
@@ -143,14 +143,14 @@
         "type": "radiogroup",
         "name": "askQuestions",
         "title": {
-            "default": "How would you describe your ability to formulate questions to get meaningful insights from data?"
+            "default": "What best describes your ability to formulate research questions?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I have no idea what kind of problems can be solved with the use of data."
+                    "default": "I am beginning to learn about the kinds of problems can be solved by using data."
                 }
             },
             {
@@ -168,7 +168,7 @@
             {
                 "value": 3,
                 "text": {
-                    "default": "I regularly translate business needs into analytic or reporting requirements to support program, project or policy goals, including monitoring progress and evaluating performance."
+                    "default": "I regularly translate business needs into analytic or reporting requirements, including progress monitoring and performance evaluation."
                 }
             }
         ]
@@ -185,14 +185,14 @@
         "type": "radiogroup",
         "name": "find",
         "title": {
-            "default": "Which data sources / strategies do you use in order to find data?"
+            "default": "What best describes the data sources / strategies you use to find data?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I use basic search engines like Google to try to find data."
+                    "default": "I use search engines like Google to search for data."
                 }
             },
             {
@@ -210,7 +210,7 @@
             {
                 "value": 3,
                 "text": {
-                    "default": "I can detect when a given problem or need cannot be solved with the existing data, and know how to deploy research techniques to obtain new data."
+                    "default": "I know when the available data cannot solve a given problem, and can generate or obtain new data if needed."
                 }
             }
         ]
@@ -228,32 +228,32 @@
         "type": "radiogroup",
         "name": "clean",
         "title": {
-            "default": "Which strategies do you use to clean your data?"
+            "default": "What best describes the strategies you use to clean data?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I did not know that data might have to be checked, cleaned or normalized. I use data as is."
+                    "default": "I did not know that data might need to be checked, cleaned or normalized. I use data as is."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I know that data is not perfect. I am aware of common data quality issues (e.g. empty fields, duplicates) and can manually fix errors."
+                    "default": "I can identify common data quality issues (e.g. empty fields, duplicates) and manually fix invalid records and errors."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": " I am very aware of data quality criteria (e.g. machine processable, empty fields, duplicate detection). I detect and remove invalid records using programs that support data cleaning."
+                    "default": "I always make sure that my data is clean, easy-to-access, and machine readable."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I am able to remove invalid records and translate all the columns to use a same set of values through an automated script. I often combine different datasets into a single table, remove duplicate entries or apply any number of other normalizations."
+                    "default": "I can use automated scripts to detect duplication, fix invalid records, or address empty fields."
                 }
             }
         ]
@@ -270,32 +270,32 @@
           "type": "radiogroup",
           "name": "manage",
           "title": {
-              "default":"Which strategies do you use in order to manage data?"
+              "default":"What best describes the strategies you use to manage data?"
           },
           "isRequired": true,
           "choices": [
               {
                   "value": 0,
                   "text": {
-                      "default": "I did not realize that data had to be managed to support the integrity, security and accessibility of the data."
+                      "default": "I am beginning to learn about managing data sets."
                   }
               },
               {
                   "value": 1,
                   "text": {
-                      "default": "I can collect, edit and store simple datasets in a spreadsheet. I am aware of the importance of creating appropriate metadata descriptors (e.g. author, date created, access rights) to fully document the data set."
+                      "default": "I can collect, edit and store simple datasets in a spreadsheet, and or am familiar with the importance of documenting datasets using appropriate metadata descriptors like author, date created, access rights."
                   }
               },
               {
                   "value": 2,
                   "text": {
-                      "default": "I am able to design, implement and manage large databases, including big data environments and real-time dashboards. I follow data standards that are implemented across the organizations."
+                      "default": "I can design, implement or manage large databases (e.g., big data, real-time dashboards) and I follow data management standards."
                   }
               },
               {
                   "value": 3,
                   "text": {
-                      "default": "I integrate collected data with existing information systems, setting up data pipelines and improving the interoperability of data. I support the creation and maintenance of data dictionaries to document corporate datasets."
+                      "default": "I can integrate collected data into information systems, set up data pipelines or improve the interoperability of data, and I can help creation or maintain data dictionaries."
                   }
               }
           ]
@@ -312,32 +312,32 @@
         "type": "radiogroup",
         "name": "analyze",
         "title": {
-            "default": "How do you analyze your data?"
+            "default": "What best describes how you analyze data?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I simply use basic summaries of data to read information."
+                    "default": "I use basic summaries of data to read information."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I work with basic descriptive statistics to identify basic relationships, trends and patterns in data. I often use bar and pie charts."
+                    "default": "I am familiar with common descriptive statistics to identify basic relationships, trends and patterns in data."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I can work with advanced statistics and create inferential views of data, linear regressions and decision trees."
+                    "default": "I can use advanced and inferential statistics to identify significant relationships, such as linear regressions and decision trees."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I am able to use modern statistical software to perform various machine learning techniques, such as clustering, forecasting, and natural language processing."
+                    "default": "I can use predictive or machine learning techniques, such as clustering, forecasting, and natural language processing."
                 }
             }
         ]
@@ -354,32 +354,32 @@
         "type": "radiogroup",
         "name": "visualize",
         "title": {
-            "default": "Which strategy do you use to visualize your data?"
+            "default": "What best describes how you visualize data?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I don’t know how to present data. I choose standard visualizations based on what looks best."
+                    "default": "I am beginning to learn about data visualization techniques. I usually choose standard visualizations based on what looks best."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I visualize specific information that can easily be represented in a table or graph (e.g. 2 variable using Excel)."
+                    "default": "I can represent basic information in a table or graph (e.g., pie charts, bar graphs)."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I design interactive charts or dashboards using advanced visual analytics tools. I can choose the visualization that best fits my target audience and data story."
+                    "default": "I design interactive charts or dashboards using static data, and choose visualizations from a range of options (e.g., treemaps, ribbons)."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I can create sophisticated visualizations that update automatically with real-time data and anticipate users needs."
+                    "default": "I design sophisticated visualizations that update automatically with real-time data."
                 }
             }
         ]
@@ -396,32 +396,32 @@
         "type": "radiogroup",
         "name": "communicate",
         "title": {
-            "default": "How do you communicate your data outputs?"
+            "default": "What best describes how you communicate data outputs?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I do not know how to communicate my data findings or how to put them into a broader context."
+                    "default": "I am beginning to learn about how to communicate data findings, or how the data fits into a broader context."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I am able to develop reports and prepare static visual summaries illustrating and supporting data insights."
+                    "default": "I can develop basic reports or prepare simple visual summaries that illustrate and support the main data insights."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I use common presentation tools to present key takeaway points and make recommendations."
+                    "default": "I can create complex reports that identify key takeaway points and make recommendations."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I build a compelling narrative around a set of data and visualizations to communicate key insights to decision-makers and stakeholders."
+                    "default": "I can use data and visualizations to build a compelling narrative that is tailored to the audience "
                 }
             }
         ]
@@ -438,32 +438,32 @@
         "type": "radiogroup",
         "name": "assessAndInterpret",
         "title": {
-            "default": "How would you describe your ability to assess and interpret data insights?"
+            "default": "What best describes your ability to critically assess and interpret data insights?"
         },
         "isRequired": true,
         "choices": [
             {
                 "value": 0,
                 "text": {
-                    "default": "I take reports and visualizations at face value without questioning their correctness and message."
+                    "default": "I take reports and visualizations at face value without questioning their accuracy and message."
                 }
             },
             {
                 "value": 1,
                 "text": {
-                    "default": "I know I need to critically assess the accuracy, assumptions, reliability and validity of data when presented as evidence. For example, I am aware that correlation is not causation."
+                    "default": "I am aware that data needs to be critically assessed, but am not comfortable doing so myself."
                 }
             },
             {
                 "value": 2,
                 "text": {
-                    "default": "I consistently question and challenge data outputs and results. I can interpret and translate insights into actionable knowledge."
+                    "default": "I can critically assess the accuracy, assumptions, reliability and validity of data when presented as evidence (e.g., correlation is not causation)."
                 }
             },
             {
                 "value": 3,
                 "text": {
-                    "default": "I use data to generate new ideas and innovative solutions to real world problems."
+                    "default": "I have the knowledge needed to meaningfully interpret and translate data insights into action, new ideas, or innovative solutions."
                 }
             }
         ]
