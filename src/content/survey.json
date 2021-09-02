@@ -67,7 +67,7 @@
             {
                 "value": 0,
                 "text": {
-                    "default": "I am unsure (or, am beginning to learn) how my organization or area collects, manages, or uses data."
+                    "default": "I am unsure how my organization or area collects, manages, or uses data."
                 }
             },
             {   "value": 1,
@@ -108,7 +108,7 @@
             {
                 "value": 0,
                 "text": {
-                    "default": "I am unsure (or, am beginning to learn) about guidelines on the responsible use and sharing of data."
+                    "default": "I am unsure about guidelines on the responsible use and sharing of data."
                 }
             },
             {
