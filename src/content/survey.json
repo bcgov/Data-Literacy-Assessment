@@ -283,7 +283,7 @@
               {
                   "value": 1,
                   "text": {
-                      "default": "I can collect, edit and store simple datasets in a spreadsheet, and or am familiar with the importance of documenting datasets using appropriate metadata descriptors like author, date created, access rights."
+                      "default": "I can collect, edit and store simple datasets in a spreadsheet, and I am familiar with the importance of documenting datasets using appropriate metadata descriptors (e.g., author, date created, access rights)."
                   }
               },
               {
@@ -396,7 +396,7 @@
         "type": "radiogroup",
         "name": "communicate",
         "title": {
-            "default": "What best describes how you communicate data outputs?"
+            "default": "What best describes how you communicate data insights?"
         },
         "isRequired": true,
         "choices": [
@@ -421,7 +421,7 @@
             {
                 "value": 3,
                 "text": {
-                    "default": "I can use data and visualizations to build a compelling narrative that is tailored to the audience "
+                    "default": "I can use data and visualizations to build a compelling narrative that is tailored to the audience."
                 }
             }
         ]
@@ -451,7 +451,7 @@
             {
                 "value": 1,
                 "text": {
-                    "default": "I am aware that data needs to be critically assessed, but am not comfortable doing so myself."
+                    "default": "I am aware that data needs to be critically assessed, but I am not comfortable doing so myself."
                 }
             },
             {
